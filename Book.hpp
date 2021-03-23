@@ -1,13 +1,14 @@
 #pragma once
 #include <iostream>
+using std::string;
 
 class Book{
 public:
     int Id;
-    std::string Title;
-    std::string Author;
+    string Title;
+    string Author;
     bool CheckedOut; 
 
-    Book(int id, std::string title, std::string author);
+    Book(int id, string title, string author);
 
 };
